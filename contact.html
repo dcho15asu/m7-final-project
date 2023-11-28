@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Chalet - Contact</title>
+
+    <link rel="icon" href="./images/favicon_io/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="cssobfuscated.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Le Chalet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="./images/swiss-valley.jpg" alt="swiss valley">
+    </header>
+
+    <main>
+
+        <h2>Contact Us</h2>
+
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+
+        <section class="peak">
+            <img src="./images/swiss-peak.jpg" alt="swiss peak">
+        </section>
+
+        <section class="contact-form"
+            <form action="submit_form.php" method="post">
+
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone-number">Phone Number *</label>
+                <input type="tel" id="phone-number" name="phone-number" required>
+
+                <label for="contact-method">Preferred Contact Method *</label>
+                <select id="contact-method" name="contact-method" required>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+
+                <label for="comments">Comments *</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+    
+        </section>
+    </main>
+
+        <footer>
+            <p>Copyright ©2023 - Le Chalet</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+ </html>
